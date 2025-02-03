@@ -1,0 +1,44 @@
+@import "./variables";
+
+#sub-page-banner {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100%;
+    height: $subpage-banner-height;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+.guidebook-section-intro {
+    text-align: center;
+
+    &-header {
+        font-size: 3rem;
+        margin-bottom: .25em;
+    }
+
+    &-text {
+        font-size: 1.1rem;
+        margin-bottom: 2em;
+    }
+}
+
+.guidebook {
+    padding: 0 $banner-right-left-padding;
+
+    &-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    &-nav {
+        width: 35%;
+        border: 1px solid black;
+    }
+
+    &-content {
+        width: 65%;
+    }
+}
