@@ -13,14 +13,19 @@
 <section class="guidebook">
     <div class="guidebook-container">
         <div class="guidebook-nav">
-            nav
+            <h2 class="guidebook-nav-title">508 Topics</h2>
+
+            <div id="guidebook-nav-link-list"></div>
+
         </div>
 
-        <div class="guidebook-content">
-            Content
-        </div>
+        <div class="guidebook-content" id="guidebook-content"></div>
     </div>
 </section>
+
+<script type="text/javascript">
+
+</script>
 
 
 <?php include "inc/footer.php" ?>

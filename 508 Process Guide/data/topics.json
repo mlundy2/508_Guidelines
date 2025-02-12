@@ -1,0 +1,49 @@
+{
+    "general": [
+        {
+            "title": "General 508",
+            "categories": [
+                {
+                    "category": "Images", 
+                    "imgSRC": "/imgs/camera_resize.jpg",
+                    "altText": "", 
+                    "subCategory": [
+                        { "name": "Alternative Text" },
+                        { "name": "Decorative Images" }
+                    ]
+                },
+                {
+                    "category": "Tables",
+                    "imgSRC": "/imgs/table_cropped.jpg",
+                    "altText": ""
+                },
+                {
+                    "category": "Lists",
+                    "imgSRC": "/imgs/checklist.jpg",
+                    "altText": ""
+                },  
+                {
+                    "category": "Links",
+                    "imgSRC": "/imgs/link.jpg",
+                    "altText": ""
+                },  
+                {
+                    "category": "Colors",
+                    "imgSRC": "/imgs/colors_resize.jpg",
+                    "altText": ""
+                },
+                {
+                    "category": "Text",
+                    "imgSRC": "/imgs/text.jpg",
+                    "altText": "",
+                    "subCategory": [
+                        { "name": "Headings" },
+                        { "name": "Paragraphs" },
+                        { "name": "Font Styling" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
