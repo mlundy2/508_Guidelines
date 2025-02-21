@@ -2,7 +2,14 @@
 
 <p id="page-title"></p>
 
-<div id="sub-page-banner" data-page-name=""></div>
+<div id="sub-page-banner" class="sub-topic-banner" data-page-name=""></div>
+
+<div class="breadcrumbs">
+    <a href="/guide.php">Guidebook</a><span style="margin: 0 .75em;">>></span>  
+    <a href="#" class="breadcrumbs-current" style="text-transform:capitalize;"><?php echo $_GET['t'] ?></a> 
+</div>
+
+
 
 <div class="guidebook-section-intro">
     <h1 class="guidebook-section-intro-header" id="section-name"></h1>
@@ -18,6 +25,9 @@
 
     let subPageName = document.getElementById("section-name");
     subPageName.innerHTML = pageName;
+
+    let pageTitle = document.getElementById("page-title");
+    pageTitle.innerHTML = pageName;
 </script>
 
 <?php include "inc/footer.php" ?>

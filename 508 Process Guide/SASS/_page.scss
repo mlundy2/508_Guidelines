@@ -1,0 +1,30 @@
+.sub-topic-banner {
+    margin-bottom: 2em !important;
+}
+
+.breadcrumbs {
+    margin-bottom: 2em;
+    padding: 0 10em;
+
+    & > a {
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+        border-bottom: 2px solid white;
+
+
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    &-current {
+        color: #fff !important;
+        background: blue;
+        padding: 3px 10px;
+
+        &:hover {
+            border-bottom: none !important;
+        }
+    }
+}

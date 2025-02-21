@@ -1,2 +1,0 @@
-- On the guide page, if you try to open one of the links on a new page, the banner does not load and the name of the page in the tab does not show up
-

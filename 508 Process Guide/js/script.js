@@ -94,7 +94,7 @@ let createCards = data => {
         for (let j = 0; j < data.general[i].categories.length; j++) {
             output += `
                 <div class="guidebook-content-item" data-page-name="${(data.general[i].categories[j].category).toLowerCase()}" style="background-image: url('${data.general[i].categories[j].imgSRC}'" role="img" aria-label="${data.general[i].categories[j].altText}">
-                    <a href="/page.php" onclick="sessionStorage.setItem('imgSRC', '${data.general[i].categories[j].imgSRC}')"><p onclick="sessionStorage.setItem('category', '${data.general[i].categories[j].category}')">${data.general[i].categories[j].category}</p></a>
+                    <a href="/page.php?t=${(data.general[i].categories[j].category).toLowerCase()}" onclick="sessionStorage.setItem('imgSRC', '${data.general[i].categories[j].imgSRC}')"><p onclick="sessionStorage.setItem('category', '${data.general[i].categories[j].category}')">${data.general[i].categories[j].category}</p></a>
                 </div>
             `;
         }
@@ -102,8 +102,6 @@ let createCards = data => {
 
     contentDisplay.innerHTML = output;
 }
-
-
 
 
 fetchData(getURL("topics"), createNavMenu);
