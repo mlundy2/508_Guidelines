@@ -28,3 +28,17 @@
         }
     }
 }
+
+.sub-page-intro {
+    text-align: center;
+
+    &-header {
+        font-size: 3rem;
+        margin-bottom: .25em;
+    }
+
+    &-text {
+        font-size: 1.1rem;
+        margin-bottom: 2em;
+    }
+}

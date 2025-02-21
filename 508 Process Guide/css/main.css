@@ -227,6 +227,18 @@
   border-bottom: none !important;
 }
 
+.sub-page-intro {
+  text-align: center;
+}
+.sub-page-intro-header {
+  font-size: 3rem;
+  margin-bottom: 0.25em;
+}
+.sub-page-intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 2em;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
